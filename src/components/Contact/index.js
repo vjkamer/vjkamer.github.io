@@ -1,20 +1,20 @@
 // Dependencies
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 // Custom components
 
 // Styles
-import './index.scss';
+import "./index.scss";
 
 class Contact extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      statur: '',
-      response: '',
-      name: '',
-      email: '',
-      message: ''
+      statur: "",
+      response: "",
+      name: "",
+      email: "",
+      message: ""
     };
   }
 
@@ -30,14 +30,14 @@ class Contact extends Component {
     event.preventDefault();
 
     this.setState({
-      status: 'processing'
+      status: "processing"
     });
 
-    fetch('https://formcarry.com/s/OWY7-snp6rk', {
-      method: 'POST',
+    fetch("https://formcarry.com/s/SweKmPytvs5", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
-        Accept: 'application/json'
+        "Content-Type": "application/json",
+        Accept: "application/json"
       },
       body: JSON.stringify({
         name: this.state.name,
@@ -48,25 +48,25 @@ class Contact extends Component {
       .then(response => {
         if (response.status >= 200 && response.status < 300) {
           this.setState({
-            status: 'done',
-            response: 'Your message was successfully delivered.',
-            name: '',
-            email: '',
-            message: ''
+            status: "done",
+            response: "Your message was successfully delivered.",
+            name: "",
+            email: "",
+            message: ""
           });
         } else {
           this.setState({
-            status: 'done',
+            status: "done",
             response:
-              'Whoos, something went wrong, please try again in a few minutes...'
+              "Whoos, something went wrong, please try again in a few minutes..."
           });
         }
       })
       .catch(err => {
         this.setState({
-          status: 'done',
+          status: "done",
           response:
-            'Whoos, something went wrong, please try again in a few minutes...'
+            "Whoos, something went wrong, please try again in a few minutes..."
         });
       });
   };
@@ -108,7 +108,7 @@ class Contact extends Component {
             placeholder="Your Message"
             required
           />
-          {this.state.status !== 'processing' ? (
+          {this.state.status !== "processing" ? (
             <button type="submit" className="contact-form__button">
               Send
             </button>
