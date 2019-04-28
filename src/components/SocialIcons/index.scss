@@ -1,0 +1,19 @@
+@import '../../styles/bootstrap-utilities';
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  @include media-breakpoint-down(md) {
+    justify-content: center;
+  }
+  &__icon {
+    display: inline-block;
+    margin: 0.5rem;
+    color: #fff;
+    font-size: 2rem;
+    transition: 0.3s;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

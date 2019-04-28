@@ -1,0 +1,58 @@
+.background {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: '100vw';
+  height: '100vh';
+}
+$circles: 30;
+.canvas {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #202020;
+}
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translate3d(-50%, -50%, 0);
+  transform-origin: center center;
+  opacity: 0.3;
+}
+@for $i from 0 through $circles {
+  .circle:nth-child(#{$i}) {
+    width: $i * 20px;
+    height: $i * 1px;
+    z-index: $circles - $i;
+    @if $i % 2 != 0 {
+      border: 1px solid #ef0d33;
+      animation: rotating $i * 1s linear infinite;
+    } @else {
+      border: 1px solid #ef0d33;
+      animation: rotatingReverse $i * 1s linear infinite;
+    }
+  }
+}
+
+@keyframes rotating {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+@keyframes rotatingReverse {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  100% {
+    transform: rotate(-360deg) scale(1);
+  }
+}
