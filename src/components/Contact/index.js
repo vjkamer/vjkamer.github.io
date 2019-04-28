@@ -33,7 +33,7 @@ class Contact extends Component {
       status: 'processing'
     });
 
-    fetch('https://formcarry.com/s/QySX-l5gug9', {
+    fetch('https://formcarry.com/s/OWY7-snp6rk', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

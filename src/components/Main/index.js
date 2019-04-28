@@ -1,18 +1,17 @@
 // Dependencies
-import React, { Component } from 'react';
-import { Row, Col } from 'react-bootstrap';
-import AccordionRoute from '../AccordionRoute/';
-import AccortionLink from '../AccordionLink/';
+import React, { Component } from "react";
+import { Row, Col } from "react-bootstrap";
+import AccordionRoute from "../AccordionRoute/";
+import AccortionLink from "../AccordionLink/";
 
 // Custom components
-import About from '../About/';
-import Skills from '../Skills';
-import Projects from '../Projects';
-import Contributions from '../Contributions/';
-import Contact from '../Contact/';
+import About from "../About/";
+import Skills from "../Skills";
+import Projects from "../Projects";
+import Contact from "../Contact/";
 
 // Styles
-import './index.scss';
+import "./index.scss";
 
 class Main extends Component {
   render() {
