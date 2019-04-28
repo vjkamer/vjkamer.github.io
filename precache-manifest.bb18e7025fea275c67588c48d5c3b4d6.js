@@ -60,16 +60,16 @@ self.__precacheManifest = [
     "url": "/static/media/fa-brands-400.5e2f9212.woff2"
   },
   {
+    "revision": "418dad87601f9c8abd0e5798c0dc1feb",
+    "url": "/static/media/fa-solid-900.418dad87.woff2"
+  },
+  {
     "revision": "2ef8ba3410dcc71578a880e7064acd7a",
     "url": "/static/media/fa-brands-400.2ef8ba34.woff"
   },
   {
     "revision": "a7140145ebaaf5fb14e40430af5d25c4",
     "url": "/static/media/fa-solid-900.a7140145.woff"
-  },
-  {
-    "revision": "418dad87601f9c8abd0e5798c0dc1feb",
-    "url": "/static/media/fa-solid-900.418dad87.woff2"
   },
   {
     "revision": "a7b95dbdd87e0c809570affaf366a434",
