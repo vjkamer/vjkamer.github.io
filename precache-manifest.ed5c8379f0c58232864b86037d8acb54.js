@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/avtoskola-m.9e5e5fc8.jpg"
   },
   {
-    "revision": "568dbccce7a95e886cdb",
-    "url": "/static/css/main.bf918aca.chunk.css"
+    "revision": "88d0fb057bc254d8764d",
+    "url": "/static/css/main.1a5a0401.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -68,8 +68,8 @@ self.__precacheManifest = [
     "url": "/static/media/avtoskola-d.ecd47894.jpg"
   },
   {
-    "revision": "568dbccce7a95e886cdb",
-    "url": "/static/js/main.e6b79541.chunk.js"
+    "revision": "88d0fb057bc254d8764d",
+    "url": "/static/js/main.ae012424.chunk.js"
   },
   {
     "revision": "e6257a726a0cf6ec8c6fec22821c055f",
@@ -104,12 +104,12 @@ self.__precacheManifest = [
     "url": "/static/media/fa-solid-900.a7140145.woff"
   },
   {
-    "revision": "98b6db59be947f563350d2284fc9ea36",
-    "url": "/static/media/fa-brands-400.98b6db59.ttf"
-  },
-  {
     "revision": "a7b95dbdd87e0c809570affaf366a434",
     "url": "/static/media/fa-brands-400.a7b95dbd.eot"
+  },
+  {
+    "revision": "98b6db59be947f563350d2284fc9ea36",
+    "url": "/static/media/fa-brands-400.98b6db59.ttf"
   },
   {
     "revision": "5eb754ab7dbd2fee562360528db4c3c0",
@@ -132,7 +132,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.d0ca8f90.chunk.css"
   },
   {
-    "revision": "a862738ace09738bb543bdf1f15c0e63",
+    "revision": "f7c70ec0e93187f3c5b0c807038648aa",
     "url": "/index.html"
   }
 ];
