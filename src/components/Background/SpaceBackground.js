@@ -3,12 +3,12 @@ const Space = {
     var self = this;
     this.config = {
       perspective: 3,
-      star_color: '0,0,0',
+      //star_color: "0,0,0",
       speed: 0.5,
       stars_count: 3
     };
     this.canvas = canvas;
-    this.context = this.canvas.getContext('2d');
+    // this.context = this.canvas.getContext("2d");
     this.start();
     window.onresize = function() {
       self.start();
@@ -41,10 +41,11 @@ const Space = {
     this.canvas.style.opacity = 1;
 
     // this.cow = new Image();
-    // this.cow.src = 'https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Fast-Food-PNG-Clipart/Hamburger_PNG_Vector_Picture.png?m=1507172108';
-    // this.cow.onload = function(){
+    // this.cow.src =
+    //   "https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Fast-Food-PNG-Clipart/Hamburger_PNG_Vector_Picture.png?m=1507172108";
+    // this.cow.onload = function() {
     self.render();
-    // }
+    // };
   },
 
   render: function() {
@@ -100,7 +101,7 @@ const Space = {
         this.context.restore();
       } else {
         this.context.fillStyle =
-          'rgba(' + this.config.star_color + ',' + star_opacity + ')';
+          "rgba(" + this.config.star_color + "," + star_opacity + ")";
         this.context.beginPath();
         this.context.arc(star_x, star_y, star_radius, 0, Math.PI * 2);
         this.context.fill();
