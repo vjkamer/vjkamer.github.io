@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/fa-regular-400.e6257a72.woff2"
   },
   {
-    "revision": "5cbf16e19a0d9ff66143",
-    "url": "/static/css/main.ac74c1b5.chunk.css"
+    "revision": "8608b8c2a18d6d825222",
+    "url": "/static/css/main.e4ece1c6.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,12 +16,8 @@ self.__precacheManifest = [
     "url": "/static/media/fa-solid-900.49279363.svg"
   },
   {
-    "revision": "b8e04869fb10046048a7",
-    "url": "/static/js/2.a5dee3cb.chunk.js"
-  },
-  {
-    "revision": "6d29a1f0b748355a45af49e4bc651a20",
-    "url": "/static/media/avatar.6d29a1f0.jpg"
+    "revision": "457bf2c94a2ed80af6f0",
+    "url": "/static/js/2.d536d382.chunk.js"
   },
   {
     "revision": "4be5773a2b4118bb3bb7a1a480729f1a",
@@ -64,8 +60,8 @@ self.__precacheManifest = [
     "url": "/static/media/avtoskola-m.9e5e5fc8.jpg"
   },
   {
-    "revision": "5cbf16e19a0d9ff66143",
-    "url": "/static/js/main.4c116fe0.chunk.js"
+    "revision": "8608b8c2a18d6d825222",
+    "url": "/static/js/main.7c410728.chunk.js"
   },
   {
     "revision": "427d721b86fc9c68b2e85ad42b69238c",
@@ -120,11 +116,11 @@ self.__precacheManifest = [
     "url": "/static/media/fa-brands-400.5bf14553.svg"
   },
   {
-    "revision": "b8e04869fb10046048a7",
+    "revision": "457bf2c94a2ed80af6f0",
     "url": "/static/css/2.d0ca8f90.chunk.css"
   },
   {
-    "revision": "f54973f701153f5bb8adb50d7e697fb0",
+    "revision": "d7459e3b50fd5ecea8fc25bc1a2ee00d",
     "url": "/index.html"
   }
 ];
