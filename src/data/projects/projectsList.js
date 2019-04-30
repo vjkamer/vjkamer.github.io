@@ -21,18 +21,14 @@ const projectsList = [
       <div>
         <p>
           <strong>Setup</strong>, <strong>design</strong> and{" "}
-          <strong>customization</strong> of <strong>WordPress</strong> theme for
+          <strong>customization</strong> of <strong>WordPress theme</strong> for
           Stag Service Company.
           <br />
           Design and Setup core feauteres dependent on clinent wishes such as:
           <ul className="portfolio__ul">
-            <li>setup a Child Theme.</li>
-            <li>full customization of Woocomerece.</li>
-            <li>custom Date and Time picker.</li>
-            <li>creation Categories of Stag Activities.</li>
-            <li>
-              sends confirmation email both to client and to website admin.
-            </li>
+            <li>development of a child them.</li>
+            <li>setup and customization of e-shop with Woocomerece.</li>
+            <li>customization of different kinds of forms, and connection of these forms with emails.</li>
           </ul>
         </p>
       </div>
@@ -71,10 +67,7 @@ const projectsList = [
         <p>
           Dileps.com is a webiste which is built for construction company.
           <br />
-          Project contains a most modern <strong>effects</strong> and{" "}
-          <strong>animations</strong>.<br />
-          Good <strong>organized</strong> and <strong>clean code</strong> make
-          this website fast and stable.
+          Website is built with use of <strong>best practices</strong> and <strong>clean code</strong>, what makes it very <strong>fast and stable</strong>.
         </p>
       </div>
     ),
@@ -90,15 +83,7 @@ const projectsList = [
     url_live: "http://ldcstav.cz/",
     description: (
       <div>
-        <p>
-          LDCStav.cz is a <strong>Resposnive</strong> construction company
-          website. <br /> Project has been built with the{" "}
-          <strong>latest Bootstrap</strong>, <strong>CSS</strong> and{" "}
-          <strong>HTML5</strong> standarts.
-          <br /> The <strong>Code</strong> is very{" "}
-          <strong>well commented</strong>, also website include{" "}
-          <strong>JQuery animations</strong>.
-        </p>
+        <p>This project is from the same series as <strong>Dileps.cz</strong></p>
       </div>
     ),
     img_mobile: ldc_m,
@@ -112,19 +97,12 @@ const projectsList = [
     url_live: "https://arbolinvest.cz/",
     description: (
       <div>
-        <p>
-          Project has been build with the latest{" "}
-          <strong>web technologies</strong> and standards. The layout is{" "}
-          <strong>drag responsive</strong> and looks attractive at all screen
-          sizes whether it is a Desktop, laptop, Tablet, or mobile.
-          <br />
-          <br /> Website is bug free and supporting all browsers.
-        </p>
+        <p>This project is from the same series as <strong>Dileps.cz</strong></p>
       </div>
     ),
     img_mobile: arbol_m,
     img_desktop: arbol_d,
-    completion_date: "2017"
+    completion_date: "2018"
   }
 ];
 
