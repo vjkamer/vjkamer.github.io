@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/fa-regular-400.e6257a72.woff2"
   },
   {
-    "revision": "64d6982dc6f520f264fd",
+    "revision": "7fc9476aaf462cd008c7",
     "url": "/static/css/main.ac74c1b5.chunk.css"
   },
   {
@@ -64,8 +64,8 @@ self.__precacheManifest = [
     "url": "/static/media/avtoskola-m.9e5e5fc8.jpg"
   },
   {
-    "revision": "64d6982dc6f520f264fd",
-    "url": "/static/js/main.8c7b7db4.chunk.js"
+    "revision": "7fc9476aaf462cd008c7",
+    "url": "/static/js/main.76cb3cea.chunk.js"
   },
   {
     "revision": "427d721b86fc9c68b2e85ad42b69238c",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.d0ca8f90.chunk.css"
   },
   {
-    "revision": "24616ade172e8f28e61772f08ef30371",
+    "revision": "46023aa429d8e4a7f4d04543b9073184",
     "url": "/index.html"
   }
 ];
