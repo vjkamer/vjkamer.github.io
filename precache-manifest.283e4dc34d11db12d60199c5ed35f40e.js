@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/fa-regular-400.e6257a72.woff2"
   },
   {
-    "revision": "8608b8c2a18d6d825222",
+    "revision": "1ca6a31bd0203fc025ee",
     "url": "/static/css/main.e4ece1c6.chunk.css"
   },
   {
@@ -60,20 +60,20 @@ self.__precacheManifest = [
     "url": "/static/media/avtoskola-m.9e5e5fc8.jpg"
   },
   {
-    "revision": "8608b8c2a18d6d825222",
-    "url": "/static/js/main.7c410728.chunk.js"
+    "revision": "1ca6a31bd0203fc025ee",
+    "url": "/static/js/main.c7d59d63.chunk.js"
   },
   {
     "revision": "427d721b86fc9c68b2e85ad42b69238c",
     "url": "/static/media/fa-regular-400.427d721b.woff"
   },
   {
-    "revision": "dcce4b7fbd5e895561e18af4668265af",
-    "url": "/static/media/fa-regular-400.dcce4b7f.eot"
-  },
-  {
     "revision": "65b9977aa23185e8964b36eddbce7a20",
     "url": "/static/media/fa-regular-400.65b9977a.ttf"
+  },
+  {
+    "revision": "dcce4b7fbd5e895561e18af4668265af",
+    "url": "/static/media/fa-regular-400.dcce4b7f.eot"
   },
   {
     "revision": "5e2f92123d241cabecf0b289b9b08d4a",
@@ -92,12 +92,12 @@ self.__precacheManifest = [
     "url": "/static/media/fa-solid-900.a7140145.woff"
   },
   {
-    "revision": "a7b95dbdd87e0c809570affaf366a434",
-    "url": "/static/media/fa-brands-400.a7b95dbd.eot"
-  },
-  {
     "revision": "98b6db59be947f563350d2284fc9ea36",
     "url": "/static/media/fa-brands-400.98b6db59.ttf"
+  },
+  {
+    "revision": "a7b95dbdd87e0c809570affaf366a434",
+    "url": "/static/media/fa-brands-400.a7b95dbd.eot"
   },
   {
     "revision": "5eb754ab7dbd2fee562360528db4c3c0",
@@ -120,7 +120,7 @@ self.__precacheManifest = [
     "url": "/static/css/2.d0ca8f90.chunk.css"
   },
   {
-    "revision": "d7459e3b50fd5ecea8fc25bc1a2ee00d",
+    "revision": "4fb82b23bb89314b4fd8768695a5c56c",
     "url": "/index.html"
   }
 ];
